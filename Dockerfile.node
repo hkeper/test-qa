@@ -8,4 +8,5 @@ RUN apt-get update && apt-get install -y \
   git \
   unzip
 
-ENTRYPOINT node /app/api.js
+COPY ./entrypoint.sh /tmp/entrypoint.sh
+ENTRYPOINT sh /tmp/entrypoint.sh
