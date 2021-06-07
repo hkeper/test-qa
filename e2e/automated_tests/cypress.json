@@ -1,0 +1,15 @@
+{
+  "baseUrl": "http://localhost:9303/courses",
+  "integrationFolder": "cypress/all-tests",
+  "projectId": "courses_tests",
+  "defaultCommandTimeout": 10000,
+  "pageLoadTimeOut": 80000,
+  "reporterOptions": {
+    "configFile": "reporterOpts.json"
+  },
+  "env": {
+    "appURL": "",
+    "username": "admin"
+  },
+  "chromeWebSecurity": false
+}
